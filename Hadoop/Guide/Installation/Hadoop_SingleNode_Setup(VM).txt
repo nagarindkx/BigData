@@ -91,6 +91,11 @@ Step 10.1 : configuration in tag <configuration> </configuration>
     <name>dfs.datanode.data.dir</name>
     <value>file:/var/hadoop_data/datanode</value>
   </property>
+  <property>
+    <name>dfs.namenode.acl.enabled</name>
+    <value>true</value>
+  </property>
+
 </configuration>
 
 Step 11 : Configuration yarn-site.xml 
